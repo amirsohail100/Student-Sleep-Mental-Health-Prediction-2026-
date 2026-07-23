@@ -35,4 +35,14 @@ Systematic hyperparameter search was conducted across 5-fold cross-validation (`
 
 ---
 
+## ⚡ Key Highlights & Methodology
+
+- **Interactive Streamlit Web App**: Built a user-friendly UI for real-time mental health score prediction based on user inputs.
+- **Data Preprocessing & Scaling**: Applied `StandardScaler` (`scaler.pkl`) to ensure numerical feature compatibility.
+- **Feature Schema Alignment**: Serialized `columns.pkl` to safeguard exact feature ordering during real-time inference.
+- **Systematic Cross-Validation**: Utilized 5-fold cross-validation to prevent overfitting on student behavioral metrics.
+- **Deployment Ready**: Exported all essential pipeline artifacts (`model.pkl`, `scaler.pkl`, `columns.pkl`).
+
+---
+
 End-to-end Machine Learning project predicting student mental health from sleep &amp; lifestyle metrics. Features EDA, 5-fold CV hyperparameter tuning (XGBoost/Logistic Regression ~83% accuracy), and an interactive Streamlit UI web app.

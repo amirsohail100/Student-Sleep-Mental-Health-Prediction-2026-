@@ -26,4 +26,13 @@ Student-Sleep-Mental-Health-Prediction/
 
 ---
 
+## 🛠️ Hyperparameter Tuning Details (XGBoost)
+
+Systematic hyperparameter search was conducted across 5-fold cross-validation (`split0` to `split4`) to optimize regularizations and sampling parameters (`colsample_bytree`, `subsample`, `reg_lambda`, `reg_alpha`):
+
+- **Best Mean Test Score**: **0.823383 (~82.34%)**
+- **Standard Deviation (std_test_score)**: **0.006858** _(high model stability across folds)_
+
+---
+
 End-to-end Machine Learning project predicting student mental health from sleep &amp; lifestyle metrics. Features EDA, 5-fold CV hyperparameter tuning (XGBoost/Logistic Regression ~83% accuracy), and an interactive Streamlit UI web app.

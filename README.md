@@ -45,4 +45,13 @@ Systematic hyperparameter search was conducted across 5-fold cross-validation (`
 
 ---
 
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/amirsohail100/Student-Sleep-Mental-Health-Prediction.git
+cd Student-Sleep-Mental-Health-Prediction
+```
+
 End-to-end Machine Learning project predicting student mental health from sleep &amp; lifestyle metrics. Features EDA, 5-fold CV hyperparameter tuning (XGBoost/Logistic Regression ~83% accuracy), and an interactive Streamlit UI web app.

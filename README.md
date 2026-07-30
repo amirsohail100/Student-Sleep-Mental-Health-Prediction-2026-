@@ -16,7 +16,7 @@ An end-to-end Machine Learning classification project designed to analyze studen
 
 ```
 Student-Sleep-Mental-Health-Prediction/
-├── student_sleep_mental_health_2026.csv   # Dataset containing student sleep & mental health metrics
+├── student_sleep_mental_health_2026.csv    # Dataset containing student sleep & mental health metrics
 ├── model.ipynb                             # Jupyter Notebook with EDA, Hyperparameter Tuning & Evaluation
 ├── model.pkl                               # Best performing trained classification model
 ├── scaler.pkl                              # Feature scaling object for normalization
